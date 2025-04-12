@@ -255,7 +255,7 @@ int build_horus_binary_packet_v2(char *buffer) {
 
   struct HorusBinaryPacketV2 BinaryPacketV2;
 
-  BinaryPacketV2.PayloadID = 608;  // 0 = 4FSKTEST-V2. Refer https://github.com/projecthorus/horusdemodlib/blob/master/payload_id_list.txt
+  BinaryPacketV2.PayloadID = 0;  // 0 = 4FSKTEST-V2. Refer https://github.com/projecthorus/horusdemodlib/blob/master/payload_id_list.txt
   BinaryPacketV2.Counter = packet_count;
   BinaryPacketV2.Hours = hour_int;
   BinaryPacketV2.Minutes = min_int;
