@@ -26,7 +26,7 @@ TinyGPSPlus gps;
 
 // APRS
 
-#define APRS_CALLSIGN "SP6MPL"
+#define APRS_CALLSIGN "N0CALL"
 #define APRS_SSID "12"
 // See APRS symbol table documentation in: http://www.aprs.org/symbols/symbolsX.txt
 #define APRS_SYMBOL_TABLE '/'  // '/' denotes primary and '\\' denotes alternate APRS symbol table
