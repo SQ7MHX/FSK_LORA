@@ -143,20 +143,20 @@ void setup() {
   digitalWrite(A2, HIGH);
   //SERIAL
 
-  Serial.begin(9600);  //USB Serial port
-  Serial.setTimeout(2000);
+  Serial.begin(9600); 
   GPSSerial.begin(9600);
 
   delay(2000);
-  for (uint8_t ih = 0; ih < 2; ih++) {
+  for (uint8_t in = 0; in < 2; in++) {
     for (uint8_t ig = 0; ig < 44; ig++) {
 
       GPSSerial.write(GPS_airborne[ig]);
-    }
-    if (ih == 0) {
-      delay(900);
+      
     }
     delay(100);
+    if (in == 0) {
+      delay(1000);
+    }
   }
 
 #if defined (LORA)
