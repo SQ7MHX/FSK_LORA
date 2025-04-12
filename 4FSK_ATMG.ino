@@ -1,9 +1,12 @@
 #include <TinyGPSPlus.h>
+https://github.com/etherkit/Si5351Arduino
 #include <si5351.h>
 #include <SoftwareSerial.h>
 #include "Wire.h"
+//https://github.com/projecthorus/horusbinary
 #include "horus_l2.h"
 #include <SPI.h>
+//https://github.com/sandeepmistry/arduino-LoRa
 #include <LoRa.h>
 
 ///////////////////////////////
