@@ -58,7 +58,7 @@ int batvoltage = 0;
 // RADIO
 void LoraAPRSsend(const long frequency, const int SF, const int CR);
 
-int Loramode = 1;
+int Loramode = 2;
 
 // LORA1 //
 
@@ -72,9 +72,9 @@ const int SFL2 = 9;
 const int CRL2 = 7;
 
 // LORA pins
-const int csPin = 4;     // LoRa radio chip select
-const int resetPin = 5;  // LoRa radio reset
-const int irqPin = 6;    // change for your board; must be a hardware interrupt pin
+const int csPin = 10;     // LoRa radio chip select
+const int resetPin = 9;  // LoRa radio reset
+const int irqPin = 2;    // change for your board; must be a hardware interrupt pin
 // const int DIO1 = 7;
 #endif
 // GPS//ZMIENNE/////////////////////////////////////////////////////////////
